@@ -35,10 +35,6 @@ const getQuery = async () => {
         );
         k = k.data.results;
         ans.push(k);
-
-        if (code === "us") {
-          console.log(ans);
-        }
       }
       if (ans) {
         var xls = json2xls(ans);

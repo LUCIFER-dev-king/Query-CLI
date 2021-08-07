@@ -8,8 +8,6 @@ var json2xls = require("json2xls");
 const http = require("http");
 
 const getQuery = async () => {
-  var searchQuery;
-
   const readline = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout,
